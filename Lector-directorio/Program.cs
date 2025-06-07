@@ -29,7 +29,23 @@ class Program
                 Console.WriteLine("Carpetas encontradas:");
             foreach (string carpeta in carpetas)
             {
-                Console.WriteLine("-" + Path.GetFileName(carpeta));
+                string nombreCarpeta = Path.GetFileName(carpeta);
+                Console.WriteLine("-" + nombreCarpeta);
+
+                string[] archivos = Directory.GetFiles(carpeta);
+                if(archivos.Length == 0)
+                {
+                    Console.WriteLine("No contiene archivos");
+                }
+                else
+                {
+                    foreach(string archivo in archivos)
+                    {
+                        FileInfo info = new FileInfo(archivo);
+                        string nombreArchivo = Path.GetFileName(archivo);
+                        Console.WriteLine(nombreArchivo);
+                    }
+                }
             }
         }
     }
