@@ -1,0 +1,14 @@
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\bin\Debug\net7.0\tl1-tp9-2025-psrr10.exe
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\bin\Debug\net7.0\tl1-tp9-2025-psrr10.deps.json
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\bin\Debug\net7.0\tl1-tp9-2025-psrr10.runtimeconfig.json
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\bin\Debug\net7.0\tl1-tp9-2025-psrr10.dll
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\bin\Debug\net7.0\tl1-tp9-2025-psrr10.pdb
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.AssemblyInfoInputs.cache
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.AssemblyInfo.cs
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.dll
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\refint\tl1-tp9-2025-psrr10.dll
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.pdb
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\tl1-tp9-2025-psrr10.genruntimeconfig.cache
+C:\Users\Alumno\Tp9\tl1-tp9-2025-psrr10\Lector-directorio\obj\Debug\net7.0\ref\tl1-tp9-2025-psrr10.dll
