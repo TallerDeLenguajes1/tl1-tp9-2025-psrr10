@@ -26,20 +26,20 @@ class Program
         }
         else
         {
-                Console.WriteLine("Carpetas encontradas:");
+            Console.WriteLine("Carpetas encontradas:");
             foreach (string carpeta in carpetas)
             {
                 string nombreCarpeta = Path.GetFileName(carpeta);
-                Console.WriteLine("-" + nombreCarpeta);
+                Console.WriteLine("-" + nombreCarpeta + ":");
 
                 string[] archivos = Directory.GetFiles(carpeta);
-                if(archivos.Length == 0)
+                if (archivos.Length == 0)
                 {
-                    Console.WriteLine("No contiene archivos");
+                    Console.WriteLine("No contiene archivos\n");
                 }
                 else
                 {
-                    foreach(string archivo in archivos)
+                    foreach (string archivo in archivos)
                     {
                         FileInfo info = new FileInfo(archivo);
                         string nombreArchivo = Path.GetFileName(archivo);
