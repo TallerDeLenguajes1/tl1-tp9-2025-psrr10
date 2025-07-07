@@ -39,6 +39,29 @@ class Program
             Console.WriteLine("-" + NombreArchivo + $"({tamañoKB} KB)");
         }
 
+        // Crear ruta del archivo CSV 
+        string rutaCSV = Path.Combine(path, "reporte_archivos.csv");
+
+        // Abrir StreamWriter para escribir el archivo
+        using (StreamWriter writer = new StreamWriter(rutaCSV))
+        {
+            // Escribir encabezado
+            writer.WriteLine("Nombre del Archivo,Tamaño (KB),Fecha de Última Modificación");
+
+            // Escribir información de cada archivo
+            foreach (var archivo in archivos)
+            {
+                FileInfo info = new FileInfo(archivo);
+                string nombre = info.Name;
+                double tamañoKB = Math.Round(info.Length / 1024.0, 2);
+                string fecha = info.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss");
+
+                writer.WriteLine($"{nombre},{tamañoKB},{fecha}");
+            }
+        }
+
+        Console.WriteLine($"\nArchivo CSV creado correctamente en: {rutaCSV}");
+
 
     }
 }
