@@ -1,0 +1,48 @@
+# Archivos y carpetas generadas por compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Archivos de usuario de Visual Studio/VS Code
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales del sistema
+*.log
+*.tmp
+*.cache
+
+# Archivos generados por el sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de backup
+*.bak
+*.old
+*.orig
+
+# Archivos de lock
+project.lock.json
+*.lock.json
+
+# Archivos de configuración local
+*.swp
+*.DS_Store
+
+# Archivos de publicación
+publish/
+
+# Archivos ocultos de Mac
+._*
+
+# Archivos de configuración de Rider (si lo usás)
+.idea/
+
+# GlobalUsings generados automáticamente
+**/obj/**/globalusings.g.cs
